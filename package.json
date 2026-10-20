@@ -1,0 +1,21 @@
+{
+  "name": "profile-sync-transition-events",
+  "version": "0.1.0",
+  "description": "Detect forward state transitions during a profile sync and emit idempotent events for them",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
